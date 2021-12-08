@@ -20,7 +20,7 @@ Step 2: Calculate the parameters for the plane equatios
 
 Step 3: Calculate the deviation of all the points in the point cloud from the plane using a distance estimate.
 
-distance = (ax4 + by4 + cz4 + d)/(sqrt(a^2 + b^2 + c^2)
+> distance = (ax4 + by4 + cz4 + d)/(sqrt(a^2 + b^2 + c^2)
 
 Step 4:  If the distance is within the THRESHOLD then add the point as an inlier otherwise it is outliers.
 
